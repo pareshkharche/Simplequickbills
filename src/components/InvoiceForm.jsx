@@ -172,7 +172,7 @@ const InvoiceForm = () => {
                   className="my-2"
                   onChange={handleChange(setBillFromEmail)}
                   autoComplete="email"
-                  required
+                  // required
                 />
                 <Form.Control
                   placeholder="Billing address"
@@ -206,7 +206,7 @@ const InvoiceForm = () => {
                   className="my-2"
                   onChange={handleChange(setBillToEmail)}
                   autoComplete="email"
-                  required
+                  // required
                 />
                 <Form.Control
                   placeholder="Billing address"
